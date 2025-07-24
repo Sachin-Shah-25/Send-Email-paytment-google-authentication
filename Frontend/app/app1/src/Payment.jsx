@@ -16,7 +16,7 @@ function Payment() {
       console.log("orders ", order)
       const options = {
         key: "RAZORPAY_KEY",
-        order_id: order.msg.id,
+        order_id: order.msg.id, // If don't give order id , then It will take default - currency and amount 
         currency: order.msg.currency,
         amount: order.msg.amount,
         name: 'Blog',
