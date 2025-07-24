@@ -40,7 +40,7 @@ function Payment() {
             })
         }
       }
-      const rzp = window.Razorpay(options);
+      const rzp = window.Razorpay(options); // If script has not loaded completel then use window.Razorpay 
       rzp.open()
 
     }).catch((e)=>{
