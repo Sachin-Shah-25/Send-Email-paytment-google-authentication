@@ -94,7 +94,7 @@ try {
         const options={
             amount:2500,
             currency:'INR',
-            receipt: 'order_rcptid_11'
+            receipt: 'Make_this_unique ' // It will help tracing order
         }
         const orders= await razorpay.orders.create(options)
         console.log("orders hai ", orders)
