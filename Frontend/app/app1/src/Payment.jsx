@@ -50,7 +50,7 @@ function Payment() {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = "https://checkout.razorpay.com/v1/checkout.js";
-    script.async = true;
+    script.async = true; // optional hai 
     document.body.appendChild(script);
   }, []);
   return (
