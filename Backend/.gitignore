@@ -1,0 +1,3 @@
+.env
+node_modules/
+git remote add origin https://github.com/Sachin-Shah-25/Send-Email-paytment-google-authentication.git
